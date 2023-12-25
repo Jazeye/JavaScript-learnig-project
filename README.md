@@ -1,1 +1,1 @@
-# JavaScript-learnig-tutorial
+# JavaScript-learnig-project
