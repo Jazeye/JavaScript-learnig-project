@@ -78,6 +78,35 @@
 // console.log(a.includes("l"));
 
 // slice
-let a = "Minnal op" //start with 0
-let b = a.slice(0,10)
-console.log(b);
+// let a = "Minnal op" //start with 0
+// let b = a.slice(0,10)
+// console.log(b);
+
+//number method conversion
+// let a = "15";
+// let b =10;
+// console.log(typeof parseInt(a));
+// console.log( typeof b.toString());
+
+//Array method
+// let myArray = ["A","B","C"];
+// myArray[0] = "Z"
+// console.log(myArray)
+
+//push update value,shift update first value , pop remove last value  ,unshif rmove first value , splice add and remove wheneve you decide
+let myArray = ["A","B","C"];
+// myArray.push("Z");
+// console.log("push",myArray)
+// myArray.pop("");
+// console.log("pop",myArray)
+// myArray.unshift("D");
+// console.log("unshif",myArray)
+// myArray.shift("");
+// console.log("shift",myArray)
+
+// where you want to add or remove
+myArray.splice(2 ,0, "E","F");
+console.log("splice add",myArray)
+
+let newArray = myArray.splice(1);
+console.log("splice rm",newArray)
