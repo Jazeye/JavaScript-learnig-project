@@ -94,7 +94,7 @@
 // console.log(myArray)
 
 //push update value,shift update first value , pop remove last value  ,unshif rmove first value , splice add and remove wheneve you decide
-let myArray = ["A","B","C"];
+// let myArray = ["A","B","C"];
 // myArray.push("Z");
 // console.log("push",myArray)
 // myArray.pop("");
@@ -105,8 +105,72 @@ let myArray = ["A","B","C"];
 // console.log("shift",myArray)
 
 // where you want to add or remove
-myArray.splice(2 ,0, "E","F");
-console.log("splice add",myArray)
+// myArray.splice(2 ,0, "E","F");
+// console.log("splice add",myArray)
 
-let newArray = myArray.splice(1);
-console.log("splice rm",newArray)
+// let newArray = myArray.splice(1);
+// console.log("splice rm",newArray)
+
+
+//sort reverce
+// let myArray = ["B","A","c"];
+// let newArray = ["A","B","c"];
+// myArray.sort();
+// newArray.reverse();
+// console.log("sort",myArray);
+// console.log("reverse",newArray);
+//sort reverce end
+
+//object
+
+// let myObj={
+//     firstname : "Jhon",
+//     lastname : "doe",
+// }
+// myObj.firstname = "MINNAL" // alter the value
+// delete myObj.lastname;  // delete the value
+// console.log(myObj);
+
+//obj methods end
+
+// if 
+// let num = 30;
+// if(num===40){
+//     console.log("good mark");
+    
+// }else if(num <= 30 && num  >= 20)
+// {
+//   console.log("average mark");
+// }else{
+
+//     console.log("no mark");
+// }
+    
+// let list = "Mango";
+
+// //switch
+// switch(list){
+//     case "Mango":
+//         console.log("i bought mango");
+//         break;
+//     case "banana":
+//         console.log("i bought banana");
+//         break;
+//     default:
+//         console.log("no fruits found");
+
+// }
+
+//for 
+// let count=10;
+// for(let i =0;i<=10;i++){
+//     console.log(i);
+// }
+
+//while
+let countt=10;
+while (countt <=10){
+    console.log(countt);
+    countt ++
+
+}
