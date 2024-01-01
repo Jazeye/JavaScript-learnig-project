@@ -13,14 +13,14 @@
 // }
 // function myFun2(){
 //     console.log("completed")
-   
-// } 
-//  console.log(myFun());    
-//  console.log(myFun3());   
+
+// }
+//  console.log(myFun());
+//  console.log(myFun3());
 
 //function calling end
 
-//parameter passing 
+//parameter passing
 // function myFun(id){
 //     let a = 10;
 //     let b = id;
@@ -30,7 +30,7 @@
 // console.log(myFun(10))
 //parameter passing end
 
-// // only one value not using return 
+// // only one value not using return
 //  myfunc = (c) => c;
 //  console.log(myfunc(11));
 
@@ -62,8 +62,7 @@
 // let a = "Minnal op" //white space include
 // console.log(a.length);
 
-
-// indexof 
+// indexof
 // let a = "Minnal op" //white space include & start with 0
 // console.log(a.indexOf("M"));
 
@@ -111,7 +110,6 @@
 // let newArray = myArray.splice(1);
 // console.log("splice rm",newArray)
 
-
 //sort reverce
 // let myArray = ["B","A","c"];
 // let newArray = ["A","B","c"];
@@ -133,11 +131,11 @@
 
 //obj methods end
 
-// if 
+// if
 // let num = 30;
 // if(num===40){
 //     console.log("good mark");
-    
+
 // }else if(num <= 30 && num  >= 20)
 // {
 //   console.log("average mark");
@@ -145,7 +143,7 @@
 
 //     console.log("no mark");
 // }
-    
+
 // let list = "Mango";
 
 // //switch
@@ -161,16 +159,64 @@
 
 // }
 
-//for 
+//for
 // let count=10;
 // for(let i =0;i<=10;i++){
 //     console.log(i);
 // }
 
 //while
-let countt=10;
-while (countt <=10){
-    console.log(countt);
-    countt ++
+// let countt=0;
+// // while (countt <=10){
+// //     console.log(countt);
+// //     countt ++
+// // }
 
+// // do while
+
+// do{
+//     console.log(countt);
+//     countt ++
+// }while (countt <=10)
+
+// //for array access
+// let myArray = ["john", "doe", "jack"];
+
+// for (let i = 0; i < myArray.length; i++) {
+//   document.write(myArray[i], "<br>");
+// }
+
+// //or
+// for (let x of myArray){
+//     document.write(x+ "<br>");
+    
+// } 
+
+// //obj access using for
+// let myObj = {
+//     firstname: "jock",
+//     lastName:"bob",
+//     age : 45
+
+// };
+// for (let x in myObj){
+//     document.write(myObj[x]+"<br>");
+// }
+
+//event click
+// function onAlert(){
+//     alert("kooi");
+// }
+
+let btn = document.getElementById("btn");
+
+// addEventListener('click',function(){
+//     alert("koii");
+// });
+
+//or 
+addEventListener('click',myfunc);
+
+function myfunc(){
+    alert("kooi");
 }
